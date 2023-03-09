@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &67677343293636285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67677343293636287}
+  - component: {fileID: 67677343293636284}
+  m_Layer: 0
+  m_Name: SpwanManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &67677343293636287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67677343293636285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11413853, y: 0.06753108, z: 1.8576214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &67677343293636284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67677343293636285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63f2888514e1e54fad37f2831c4c9d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animalPrefabs:
+  - {fileID: 3197870281655718134, guid: 2dc461a32b87e8249800b1dc30ffd459, type: 3}
+  - {fileID: 1915667762568633294, guid: fc867ab9cf238ae4f9b9b5b2643c3dea, type: 3}
+  - {fileID: 6167060889418587002, guid: aff30570159cd2b49b1e19f7d4157b10, type: 3}
+  _positiveSpwanRangeX: 0
+  _negativeSpwanRangeX: 0
+  _spwanPosZ: 20
+  rotationYAxis: 0
